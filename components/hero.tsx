@@ -8,6 +8,15 @@ export function Hero() {
         <div className="text-center space-y-8">
           <div className="space-y-4">
             <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider">Olá, eu sou</p>
+             <div className="flex justify-center">
+              <div className="relative w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48">
+                <img
+                  src="/profile.jpg"
+                  alt="Foto de perfil"
+                  className="w-full h-full object-cover rounded-full border-4 border-accent shadow-xl"
+                />
+              </div>
+            </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-balance">Desenvolvedor Full Stack</h1>
             <p className="text-xl sm:text-2xl text-muted-foreground max-w-2xl mx-auto text-balance">
               Criando experiências digitais modernas e intuitivas com foco em performance e usabilidade
