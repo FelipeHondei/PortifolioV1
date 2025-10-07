@@ -35,14 +35,6 @@ PortifolioV1/
 └── README.md         # Documentação
 ```
 
-## 🔄 Sincronização Automática
-
-Este repositório está sincronizado automaticamente com o [v0.app](https://v0.app). 
-
-- **Editar projeto:** https://v0.app/chat/projects/TeCJiAJXoTs
-- Todas as mudanças feitas no v0.app são automaticamente enviadas para este repositório
-- O deploy é feito automaticamente na Vercel
-
 ## 🎨 Funcionalidades
 
 - ✅ Design responsivo (mobile-first)
@@ -61,8 +53,8 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 **Felipe Hondei**
 
 - GitHub: [@FelipeHondei](https://github.com/FelipeHondei)
-- LinkedIn: [Seu LinkedIn]
-- Email: seu.email@exemplo.com
+- LinkedIn: [Felipe-Hondei](https://www.linkedin.com/in/felipe-hondei-aa4662232/)
+- Email: felipe_hondei@hotmail.com
 
 ---
 
