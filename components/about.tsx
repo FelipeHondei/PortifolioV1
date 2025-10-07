@@ -10,7 +10,7 @@ export function About() {
 
           <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
             <p className="text-pretty">
-              Desenvolvedor em formação o em Analise e Desenvolvimento de Sistemas, com experiencia prãticã em desenvolvimento web, automãção de processos e integrãção de sistemas. 
+              Me chamo Felipe Rodrigues Hondei e sou um desenvolvedor com formação em Analise e Desenvolvimento de Sistemas, com experiencia pratica em desenvolvimento web, automãção de processos e integrãção de sistemas. 
             </p>
             <p className="text-pretty">
               foco em usabilidade, acessibilidade e boas praticas de desenvolvimento. Busco um lugar onde eu consiga aplicar minha capacidade de aprendizado contínuo, criatividade e colaboração em projetos desafiadores.

@@ -1,30 +1,71 @@
-# Portfolio page
+# 💼 Portfólio V1
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Meu portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e experiências profissionais.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/felipe-hondeis-projects/v0-portfolio-page)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/TeCJiAJXoTs)
+## 🚀 Demonstração
 
-## Overview
+**🔗 Site ao vivo:** [Acesse aqui](https://felipehondeidev.netlify.app/)
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## 📋 Sobre o Projeto
 
-## Deployment
+Este portfólio foi desenvolvido com foco em design moderno, responsividade e performance. Ele apresenta:
 
-Your project is live at:
+- Seção de apresentação pessoal
+- Portfólio de projetos
+- Habilidades técnicas
+- Informações de contato
+- Design responsivo para todos os dispositivos
 
-**[https://vercel.com/felipe-hondeis-projects/v0-portfolio-page](https://vercel.com/felipe-hondeis-projects/v0-portfolio-page)**
+## 🛠️ Tecnologias Utilizadas
 
-## Build your app
+- **Framework:** Next.js / React
+- **Estilização:** Tailwind CSS
+- **Hospedagem:** Netlify
+- **Versionamento:** Git & GitHub
 
-Continue building your app on:
+## 📂 Estrutura do Projeto
 
-**[https://v0.app/chat/projects/TeCJiAJXoTs](https://v0.app/chat/projects/TeCJiAJXoTs)**
+```
+PortifolioV1/
+├── components/        # Componentes React reutilizáveis
+├── pages/            # Páginas do Next.js
+├── public/           # Arquivos estáticos (imagens, ícones)
+├── styles/           # Estilos globais e módulos CSS
+├── package.json      # Dependências do projeto
+└── README.md         # Documentação
+```
 
-## How It Works
+## 🔄 Sincronização Automática
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Este repositório está sincronizado automaticamente com o [v0.app](https://v0.app). 
+
+- **Editar projeto:** https://v0.app/chat/projects/TeCJiAJXoTs
+- Todas as mudanças feitas no v0.app são automaticamente enviadas para este repositório
+- O deploy é feito automaticamente na Vercel
+
+## 🎨 Funcionalidades
+
+- ✅ Design responsivo (mobile-first)
+- ✅ Animações suaves
+- ✅ Navegação intuitiva
+- ✅ SEO otimizado
+- ✅ Performance otimizada
+- ✅ Acessibilidade
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 📧 Contato
+
+**Felipe Hondei**
+
+- GitHub: [@FelipeHondei](https://github.com/FelipeHondei)
+- LinkedIn: [Seu LinkedIn]
+- Email: seu.email@exemplo.com
+
+---
+
+⭐ Se este projeto te ajudou, considere dar uma estrela no repositório!
+
+**Desenvolvido com 💙 por Felipe Hondei**
