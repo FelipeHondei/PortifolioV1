@@ -8,7 +8,7 @@ const projects = [
     title: "Crypto analyzer",
     description:
       "Site com dashboards sobre criptomoedas em alta.",
-    image: "/public/CriptoThumb.png",
+    image: "/CriptoThumb.png",
     technologies: ["CSS", "Javascript", "HTML", "Vercel", "Python", "FastAPI"],
     liveUrl: "https://api-crypto-phi.vercel.app/",
     githubUrl: "https://github.com/FelipeHondei/ApiCrypto",
@@ -16,7 +16,7 @@ const projects = [
   {
     title: "Task Flow",
     description: "Aplicativo para criar e gerenciar tarefas.",
-    image: "/public/TaskFlow.png",
+    image: "/TaskFlow.png",
     technologies: ["FastAPI", "SQLite", "Docker", "Python", "Netify"],
     liveUrl: "https://loginauthtask.netlify.app/",
     githubUrl: "https://github.com/FelipeHondei/LoginAuth",
@@ -25,7 +25,7 @@ const projects = [
     title: "Estoque e vendas",
     description:
       "Sistema de gerenciamento estoque e vendas.",
-    image: "/public/Estoque e Vendas.png",
+    image: "/Estoque%20e%20vendas.png",
     technologies: ["PostgreSQL", "SQLAlchemy", "JS", "Netify", "Render"],
     liveUrl: "https://estoquehondei.netlify.app/",
     githubUrl: "https://github.com/FelipeHondei/Estoque-frontend",
