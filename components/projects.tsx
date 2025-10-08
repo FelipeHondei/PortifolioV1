@@ -30,6 +30,15 @@ const projects = [
     liveUrl: "https://estoquehondei.netlify.app/",
     githubUrl: "https://github.com/FelipeHondei/Estoque-frontend",
   },
+  {
+    title: "Dogtown Coffee",
+    description:
+      "Landing page de uma cafeteria.",
+    image: "/Estoque%20e%20vendas.png",
+    technologies: ["Next.js", "Typescript", "Tailwind CSS", "Netify"],
+    liveUrl: "https://estoquehondei.netlify.app/",
+    githubUrl: "https://github.com/FelipeHondei/Estoque-frontend",
+  },
 ]
 
 export function Projects() {
