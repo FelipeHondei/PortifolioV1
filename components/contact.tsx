@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Github, Linkedin, Mail, Send } from "lucide-react"
+import { Github, Linkedin, Mail, Send, MessageCircle } from "lucide-react"
 import { useState } from "react"
 
 export function Contact() {
@@ -15,6 +15,11 @@ export function Contact() {
     email: "",
     message: "",
   })
+
+  // Configuração do WhatsApp
+  const phoneNumber = "5515996009700"
+  const whatsappMessage = encodeURIComponent("Olá! Vi seu portfólio e gostaria de conversar sobre um projeto.")
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -83,6 +88,33 @@ export function Contact() {
             </Card>
 
             <div className="space-y-6">
+              {/* Card do WhatsApp - Destaque */}
+              <Card className="p-6 bg-[#25D366]/10 border-[#25D366]/30 hover:border-[#25D366]/50 transition-all duration-300 hover:shadow-lg">
+                <div className="space-y-4">
+                  <div className="flex items-center gap-3">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366]">
+                      <MessageCircle className="h-6 w-6 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold">WhatsApp</h3>
+                      <p className="text-sm text-muted-foreground">Resposta rápida garantida</p>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground text-pretty">
+                    Prefere conversar pelo WhatsApp? Clique no botão abaixo e vamos conversar!
+                  </p>
+                  <Button 
+                    asChild 
+                    className="w-full bg-[#25D366] hover:bg-[#20BA5A] text-white"
+                  >
+                    <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+                      <MessageCircle className="h-4 w-4 mr-2" />
+                      Abrir WhatsApp
+                    </a>
+                  </Button>
+                </div>
+              </Card>
+
               <Card className="p-6">
                 <div className="space-y-4">
                   <h3 className="text-xl font-semibold">Informações de Contato</h3>
