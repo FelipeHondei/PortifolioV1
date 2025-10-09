@@ -10,7 +10,7 @@ const skillCategories = [
   {
     icon: Server,
     title: "Back-End",
-    skills: ["Node.js", "Express", "REST APIs", "GraphQL", "Authentication"],
+    skills: ["Node.js", "Express", "REST APIs", "GraphQL", "Authentication", "FastAPI", "Python", "Django"],
   },
   {
     icon: Database,
