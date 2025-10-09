@@ -6,11 +6,8 @@ import { useState } from "react"
 export function WhatsAppButton() {
   const [isHovered, setIsHovered] = useState(false)
   
-  // Seu número do WhatsApp (formato: código do país + DDD + número)
-  // Exemplo: 5515981234567 (Brasil +55, DDD 15, número 98123-4567)
-  const phoneNumber = "5515981234567" // SUBSTITUA PELO SEU NÚMERO
+  const phoneNumber = "5515996009700"
   
-  // Mensagem pré-definida que aparecerá ao abrir o WhatsApp
   const message = encodeURIComponent("Olá! Vi seu portfólio e gostaria de conversar sobre um projeto.")
   
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`
