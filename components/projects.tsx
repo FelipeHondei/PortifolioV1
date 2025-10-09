@@ -37,7 +37,7 @@ const projects = [
     image: "/Hero.png",
     technologies: ["Next.js", "Typescript", "Tailwind CSS", "Netify"],
     liveUrl: "https://dogtowncoffee.netlify.app/",
-    githubUrl: "https://github.com/FelipeHondei/CoffeeLandingpage",
+    githubUrl: "https://github.com/FelipeHondei/Dogtown-Coffee",
   },
 ]
 
